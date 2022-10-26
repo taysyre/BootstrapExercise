@@ -1,0 +1,58 @@
+
+.nav-item a:hover,
+.nav-item .active{ 
+
+background: #fff;
+    color: #2b1055
+
+}
+h1{
+    background-color: #55ACEE;
+    text-align: center;
+    
+}
+.img3 :hover{
+    box-shadow: 0 0 6px 4px;
+    
+}
+.contact{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(43, 42, 42);
+    min-width: 100%;
+}
+/* footer */w
+footer p {
+    font-weight: bold;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+ /* Facebook */
+.fa-facebook {
+    background: #1b51c6;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #ffa202;
+    color: white;
+  }

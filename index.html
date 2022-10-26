@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- CSS Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Ecom</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/PJpbJ9S9/Screenshot-2022-10-07-094215.png" width="50"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-bg-light">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+            
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="carouselExampleControls0" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+
+            <img src="https://i.postimg.cc/RZ3jP66z/jaden-smith.webp" class="d-block w-100" alt="...">
+           
+          </div>
+          <div class="carousel-item" data-bs-interval="20000">
+            <img src="https://i.postimg.cc/mZ6Dhn9Z/Screenshot-2022-10-26-153630.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="https://i.postimg.cc/4xt4nNvs/enva13yx5h3z6wfvmsnz.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls0" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls0" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+    
+    <main>
+        <section id="products">
+            <h1>Products</h1>
+            <img class="img3" src="https://i.postimg.cc/zXtM4VBp/msvrcjsc-2.jpg" width="300">
+            
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-1">
+    View more
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="product-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="example1">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+
+                    <img src="https://i.postimg.cc/zXtM4VBp/msvrcjsc-2.jpg" class="d-block w-100" alt="...">
+                    <p>New Balance
+                        Vision Racer "Jaden Smith" low-top sneakers 
+                        <ul>
+                       <li>Color:Pink</li>
+                       <li>size:7</li> 
+                        <li>Price:R1700</li>
+                    </ul>
+                    </p>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <img src="https://i.postimg.cc/wTXH33L9/jaden-smith-vision-racer-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="https://i.postimg.cc/N0g0Qmnh/jaden-smith-vision-racer.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.postimg.cc/h4J7VYmj/msvrcjwa-2.jpg" width="300">
+                 <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-2">
+    View more
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="product-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="example1">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+
+                    <img src="https://i.postimg.cc/h4J7VYmj/msvrcjwa-2.jpg" class="d-block w-100" alt="...">
+                    <p> New Balance
+                        Vision Racer "Jaden Smith" low-top sneakers 
+                        <ul>
+                        <li>Color:white</li>
+                        <li>size:7</li> 
+                         <li>Price:R1800</li>
+                    </p>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <img src="https://i.postimg.cc/FztyWTP5/vision-racer-trippy-summer.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="https://i.postimg.cc/CLwN3LCR/Screenshot-2022-10-26-133410.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.postimg.cc/Vk5vnG5g/5653386-E-FD07-4-F06-8-D16-ADF9-C00-E7-A18-1800x1800.webp" width="300">
+                 <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-3">
+    View more
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="product-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="example1">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+
+                    <img src="https://i.postimg.cc/Vk5vnG5g/5653386-E-FD07-4-F06-8-D16-ADF9-C00-E7-A18-1800x1800.webp" class="d-block w-100" alt="...">
+                   <br><br> <p>New Balance
+                        Vision Racer "Jaden Smith" low-top sneakers 
+                        <ul>
+                            <li>Color:yellow</li>
+                            <li>size:7</li> 
+                             <li>Price:R1400</li>
+                    </p>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <img src="https://i.postimg.cc/Rh8dww8q/jaden-smith-new-balance-vision-racer-yellow-grey-5.jpg" width="200" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="https://i.postimg.cc/JzbbTfv1/Screenshot-2022-10-26-140009.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.postimg.cc/XqWM5GZf/P0.jpg" width="340">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-4">
+    View more
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="product-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="https://i.postimg.cc/XqWM5GZf/P0.jpg" class="d-block w-100" alt="...">
+            Erys hoodie 
+            <ul>
+            <li>Color:black </li>
+            <li>Size:L</li>
+        </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="https://i.postimg.cc/7hQQP5yM/1634680744557.webp" width="300">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-5">
+  View more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="product-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="https://i.postimg.cc/7hQQP5yM/1634680744557.webp" class="d-block w-100" alt="...">
+          Erys hoodie 
+          <ul>
+            <li>Color:Pink</li>
+            <li>Size:L</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Purchase</button>
+      </div>
+    </div>
+  </div>
+</div>
+<img src="https://i.postimg.cc/y8JW8t0F/1634929711344.webp" width="300">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-6">
+View more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="product-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <img src="https://i.postimg.cc/y8JW8t0F/1634929711344.webp" class="d-block w-100" alt="...">
+        Erys hoodie 
+        <ul>
+            <li>Color:White</li>
+            <li>Size:L</li>
+        </ul>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      <button type="button" class="btn btn-primary">Purchase</button>
+    </div>
+  </div>
+</div>
+</div>
+<img src="https://i.postimg.cc/MHLH0JBb/Screenshot-2022-10-26-143125.png" width="350">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-7">
+View more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="product-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <img src="https://i.postimg.cc/MHLH0JBb/Screenshot-2022-10-26-143125.png" class="d-block w-100" alt="...">
+        G-star Raw jeans
+        <ul>
+       <li>style:Denim black</li> 
+       <li> Size:M</li>
+    </ul>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      <button type="button" class="btn btn-primary">Purchase</button>
+    </div>
+  </div>
+</div>
+</div>
+<img src="https://i.postimg.cc/8PWwFpMH/Screenshot-2022-10-26-143534.png" width="340">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-8">
+View more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="product-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <img src="https://i.postimg.cc/8PWwFpMH/Screenshot-2022-10-26-143534.png" class="d-block w-100" alt="...">
+        G-star Raw jeans
+        <ul>
+            <li>style:Denim white</li> 
+            <li> Size:M</li>
+         </ul>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      <button type="button" class="btn btn-primary">Purchase</button>
+    </div>
+  </div>
+</div>
+</div>
+<img src="https://i.postimg.cc/mZpK3gcW/Screenshot-2022-10-26-143756.png" width="300">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#product-9">
+View more
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="product-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="example4">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <img src="https://i.postimg.cc/mZpK3gcW/Screenshot-2022-10-26-143756.png" class="d-block w-100" alt="...">
+        G-star Raw jeans
+        <ul>
+            <li>style:Denim</li> 
+            <li> Size:M</li>
+         </ul>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      <button type="button" class="btn btn-primary">Purchase</button>
+    </div>
+  </div>
+</div>
+</div>
+        </section>
+            <section id="contact" class="contact">
+                <h1>Contact</h1><br>
+                <form action="https://formspree.io/f/mdojzboj" method="POST">
+                    <div>
+                        <label for="#firstname">Name</label></br>
+                        <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="#firstname">Surname</label></br>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <label for="#firstname">Message</label></br>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+           <br> <form action="/action page.php">
+                <label for="contact">contacts:</label>
+                <select name="contacts" id="contacts">
+                <option value="0714159013">0714159013</option>
+                <option value="0675913242">0675913242</option>
+                <option value="0756910254">0756910254</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+        
+                
+            </form><br>
+        </section>
+    </main>
+    <footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a><br>
+        <p>Copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>
